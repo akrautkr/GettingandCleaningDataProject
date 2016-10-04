@@ -27,7 +27,7 @@ The resulting tidy dataset is written to a file named "tidy_meanHumanActivityDat
 
 To read this dataset into R:
 
-	df <- read.table("tidy_meanHumanActivityDataset.csv", header=TRUE)
+	df <- read.table("tidy_meanHumanActivityDataset.txt", header=TRUE)
 
 This dataset is considered tidy because :
 
