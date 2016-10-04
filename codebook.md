@@ -80,236 +80,300 @@ Variables
 
 Field Lablel:     		Variable:      		Variable type:       Allowable values:
 
-activity			Activity performed 	     Factor	    WALKING
-				during measurements			    WALKING_UPSTAIRS
-									    WALKING_DOWNSTAIRS
-									    SITTING
-									    STANDING
-									    LAYING
-subjectid			Subject ID Number	     Factor	    1:30
+* activity			Activity performed 	     Factor	             WALKING
+				during measurements			                     WALKING_UPSTAIRS
+									                             WALKING_DOWNSTAIRS
+									                             SITTING
+									                             STANDING
+									                             LAYING
+                                                                 
+* subjectid			Subject ID Number	     Factor	    1:30
 
-meantimebodyaccelerometermeanx	Average Mean Accelerometer   Numeric
+* meantimebodyaccelerometermeanx	Average Mean Accelerometer   Numeric
 				Meaurement of Body Motion 
 				X direction
-meantimebodyaccelerometermeany  Average Mean Accelerometer   Numeric
+                
+* meantimebodyaccelerometermeany  Average Mean Accelerometer   Numeric
 				Meaurement of Body Motion 
 				Y direction
-meantimebodyaccelerometermeanz	Average Mean Accelerometer   Numeric
+                
+* meantimebodyaccelerometermeanz	Average Mean Accelerometer   Numeric
 				Meaurement of Body Motion 
 				Z direction
-meantimebodyaccelerometerstdx  Average Std Accelerometer     Numeric
+
+* meantimebodyaccelerometerstdx  Average Std Accelerometer     Numeric
 				Meaurement of Body Motion 
 				X direction
-meantimebodyaccelerometerstdy   Average Std Accelerometer    Numeric
+                
+* meantimebodyaccelerometerstdy   Average Std Accelerometer    Numeric
 				Meaurement of Body Motion 
 				Y direction
-meantimebodyaccelerometerstdz   Average Std Accelerometer    Numeric
+                
+* meantimebodyaccelerometerstdz   Average Std Accelerometer    Numeric
 				Meaurement of Body Motion 
 				Z direction
-meantimegravityaccelerometermeanx  Average Mean Accelerometer   Numeric
+                
+* meantimegravityaccelerometermeanx  Average Mean Accelerometer   Numeric
 				   Meaurement of Gravity Motion 
 				   X direction
-meantimegravityaccelerometermeany  Average Mean Accelerometer   Numeric
+                   
+* meantimegravityaccelerometermeany  Average Mean Accelerometer   Numeric
 				   Meaurement of Gravity Motion 
 				   Y direction
-meantimegravityaccelerometermeanz  Average Mean Accelerometer   Numeric
+* meantimegravityaccelerometermeanz  Average Mean Accelerometer   Numeric
 				   Meaurement of Gravity Motion 
 				   Z direction
-meantimegravityaccelerometerstdx   Average Std Accelerometer    Numeric
+                   
+* meantimegravityaccelerometerstdx   Average Std Accelerometer    Numeric
 				   Meaurement of Gravity Motion 
 				   X direction
-meantimegravityaccelerometerstdy   Average Std Accelerometer    Numeric
+                   
+* meantimegravityaccelerometerstdy   Average Std Accelerometer    Numeric
 				   Meaurement of Gravity Motion 
 				   Y direction
-meantimegravityaccelerometerstdz   Average Std Accelerometer    Numeric
+                   
+* meantimegravityaccelerometerstdz   Average Std Accelerometer    Numeric
 				   Meaurement of Gravity Motion 
 				   Z direction
-meantimebodyaccelerometerjerkmeanx Average Mean Accelerometer   Numeric
+                   
+* meantimebodyaccelerometerjerkmeanx Average Mean Accelerometer   Numeric
 				   Meaurement of Jerk Body  
 				   Motion X direction
-meantimebodyaccelerometerjerkmeany  Average Mean Accelerometer  Numeric
+                   
+* meantimebodyaccelerometerjerkmeany  Average Mean Accelerometer  Numeric
 				    Meaurement of Jerk Body 
 				    Motion Y direction
-meantimebodyaccelerometerjerkmeanz  Average Mean Accelerometer  Numeric
+                    
+* meantimebodyaccelerometerjerkmeanz  Average Mean Accelerometer  Numeric
 				    Meaurement of Jerk Body  
 				    Motion Z direction
-meantimebodyaccelerometerjerkstdx   Average Mean Accelerometer  Numeric
+                    
+* meantimebodyaccelerometerjerkstdx   Average Mean Accelerometer  Numeric
 				   Meaurement of Jerk Body  
 				   Motion X direction
-meantimebodyaccelerometerjerkstdy   Average Std Accelerometer   Numeric
+                   
+* meantimebodyaccelerometerjerkstdy   Average Std Accelerometer   Numeric
 				   Meaurement of Jerk Body  
 				   Motion Y direction
-meantimebodyaccelerometerjerkstdz  Average Std Accelerometer    Numeric
+                   
+* meantimebodyaccelerometerjerkstdz  Average Std Accelerometer    Numeric
 				   Meaurement of Jerk Body  
 				   Motion Z direction
-meantimebodygyroscopemeanx	   Average Mean Gyroscope       Numeric
+                   
+* meantimebodygyroscopemeanx	   Average Mean Gyroscope       Numeric
 				   Meaurement of Body Motion 
 				   X direction	
-meantimebodygyroscopemeany	   Average Mean Gyroscope       Numeric
+                   
+* meantimebodygyroscopemeany	   Average Mean Gyroscope       Numeric
 				   Meaurement of Body Motion 
 				   Y direction	 
-meantimebodygyroscopemeanz         Average Mean Gyroscope       Numeric
+                   
+* meantimebodygyroscopemeanz         Average Mean Gyroscope       Numeric
 				   Meaurement of Body Motion 
 				   Z direction	
-meantimebodygyroscopestdx	   Average Std Gyroscope        Numeric
+
+* meantimebodygyroscopestdx	   Average Std Gyroscope        Numeric
 				   Meaurement of Body Motion 
 				   X direction	
-meantimebodygyroscopestdy	   Average Std Gyroscope        Numeric
+
+* meantimebodygyroscopestdy	   Average Std Gyroscope        Numeric
 				   Meaurement of Body Motion 
 				   Y direction	
-meantimebodygyroscopestdz	   Average Std Gyroscope        Numeric
+                   
+* meantimebodygyroscopestdz	   Average Std Gyroscope        Numeric
 				   Meaurement of Body Motion 
 				   Z direction	
-meantimebodygyroscopejerkmeanx	   Average Mean Gyroscope        Numeric
+                   
+* meantimebodygyroscopejerkmeanx	   Average Mean Gyroscope        Numeric
 				   Meaurement of Jerk Body Motion 
 				   X direction	
-meantimebodygyroscopejerkmeany     Average Mean Gyroscope        Numeric
+                   
+* meantimebodygyroscopejerkmeany     Average Mean Gyroscope        Numeric
 				   Meaurement of Jerk Body Motion 
 				   Y direction	
-meantimebodygyroscopejerkmeanz     Average Mean Gyroscope        Numeric
+                   
+* meantimebodygyroscopejerkmeanz     Average Mean Gyroscope        Numeric
 				   Meaurement of Jerk Body Motion 
 				   Z direction	
-meantimebodygyroscopejerkstdx      Average Std Gyroscope        Numeric
+                   
+* meantimebodygyroscopejerkstdx      Average Std Gyroscope        Numeric
 				   Meaurement of Jerk Body Motion 
 				   X direction	
-meantimebodygyroscopejerkstdy      Average Std Gyroscope        Numeric
+                   
+* meantimebodygyroscopejerkstdy      Average Std Gyroscope        Numeric
 				   Meaurement of Jerk Body Motion 
-				   Y direction	
-meantimebodygyroscopejerkstdz      Average Std Gyroscope        Numeric
+				   Y direction
+                   
+* meantimebodygyroscopejerkstdz      Average Std Gyroscope        Numeric
 				   Meaurement of Jerk Body Motion 
 				   Z direction	
-meantimebodyaccelerometermagnitudemean       Average Mean Accelerometer   Numeric
+                   
+* meantimebodyaccelerometermagnitudemean       Average Mean Accelerometer   Numeric
 				             Meaurement of Magnitude 
-					     of Body Motion              
-meantimebodyaccelerometermagnitudestd	     Average Std Accelerometer   Numeric
+					     of Body Motion 
+                         
+* meantimebodyaccelerometermagnitudestd	     Average Std Accelerometer   Numeric
 				             Meaurement of Magnitude 
 					     of Body Motion  
-meantimegravityaccelerometermagnitudemean     Average Mean Accelerometer   Numeric
+                         
+* meantimegravityaccelerometermagnitudemean     Average Mean Accelerometer   Numeric
 				              Meaurement of Magitude
 					      of Gravity Motion 
-meantimegravityaccelerometermagnitudestd      Average Std Accelerometer   Numeric
+                          
+* meantimegravityaccelerometermagnitudestd      Average Std Accelerometer   Numeric
 				              Meaurement of Magitude
-					      of Gravity Motion 
-meantimebodyaccelerometerjerkmagnitudemean   Average Mean Accelerometer   Numeric
+					      of Gravity Motion
+                          
+* meantimebodyaccelerometerjerkmagnitudemean   Average Mean Accelerometer   Numeric
+				             Meaurement of Magnitude 
+					     of Jerk Body Motion 
+                         
+* meantimebodyaccelerometerjerkmagnitudestd    Average Std Accelerometer   Numeric
 				             Meaurement of Magnitude 
 					     of Jerk Body Motion  
-meantimebodyaccelerometerjerkmagnitudestd    Average Std Accelerometer   Numeric
-				             Meaurement of Magnitude 
-					     of Jerk Body Motion  
-meantimebodygyroscopemagnitudemean	   Average Mean Gyroscope   Numeric
+                         
+* meantimebodygyroscopemagnitudemean	   Average Mean Gyroscope   Numeric
 				           Meaurement of Magnitude 
 					   Body Motion 
-meantimebodygyroscopemagnitudestd	   Average Std Gyroscope   Numeric
+                       
+* meantimebodygyroscopemagnitudestd	   Average Std Gyroscope   Numeric
 				           Meaurement of Magnitude 
 					   Body Motion  
-meantimebodygyroscopejerkmagnitudemean     Average Mean Gyroscope   Numeric
+                       
+* meantimebodygyroscopejerkmagnitudemean     Average Mean Gyroscope   Numeric
 				           Meaurement of Magnitude 
 					   of Jerk Body Motion  
-meantimebodygyroscopejerkmagnitudestd	   Average Std Gyroscope   Numeric
+                       
+* meantimebodygyroscopejerkmagnitudestd	   Average Std Gyroscope   Numeric
 				           Meaurement of Magnitude 
 					   of Jerk Body Motion  
-meanfourierbodyaccelerometermeanx	   Average Mean Accelerometer   Numeric
+                       
+* meanfourierbodyaccelerometermeanx	   Average Mean Accelerometer   Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
 					   - X direction  
-meanfourierbodyaccelerometermeany	   Average Mean Accelerometer   Numeric
-				           Body Meaurement with Fast
-					   Fourier transform applied
-					   - Y direction 	 
-meanfourierbodyaccelerometermeanz	   Average Mean Accelerometer   Numeric
-				           Body Meaurement with Fast
-					   Fourier transform applied
-					   - Z direction 		
-meanfourierbodyaccelerometerstdx	   Average Std Accelerometer   Numeric
-				           Body Meaurement with Fast
-					   Fourier transform applied
-					   - X direction 	
-meanfourierbodyaccelerometerstdy	   Average Std Accelerometer   Numeric
-				           Body Meaurement with Fast
-					   Fourier transform applied
-					   - Y direction  
-meanfourierbodyaccelerometerstdz	   Average Std Accelerometer   Numeric
-				           Body Meaurement with Fast
-					   Fourier transform applied
-					   - Z direction  
-meanfourierbodyaccelerometerjerkmeanx	   Average Mean Accelerometer   Numeric
-				           Body Jerk Meaurement with Fast
-					   Fourier transform applied
-					   - X direction  	
-meanfourierbodyaccelerometerjerkmeany	   Average Mean Accelerometer   Numeric
-				           Body Jerk Meaurement with Fast
-					   Fourier transform applied
-					   - Y direction
-meanfourierbodyaccelerometerjerkmeanz	   Average Mean Accelerometer   Numeric
-				           Body Jerk Meaurement with Fast
-					   Fourier transform applied
-					   - Z direction
-meanfourierbodyaccelerometerjerkstdx	   Average Std Accelerometer   Numeric
-				           Body Jerk Meaurement with Fast
-					   Fourier transform applied
-					   - X direction	
-meanfourierbodyaccelerometerjerkstdy	   Average Std Accelerometer   Numeric
-				           Body Jerk Meaurement with Fast
-					   Fourier transform applied
-					   - Y direction	
-meanfourierbodyaccelerometerjerkstdz	   Average Std Accelerometer   Numeric
-				           Body Jerk Meaurement with Fast
-					   Fourier transform applied
-					   - Z direction	
-meanfourierbodygyroscopemeanx		   Average Mean Gyroscope   Numeric
-				           Body Meaurement with Fast
-					   Fourier transform applied
-					   - X direction 
-meanfourierbodygyroscopemeany		   Average Mean Gyroscope   Numeric
+                       
+* meanfourierbodyaccelerometermeany	   Average Mean Accelerometer   Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
 					   - Y direction 	
-meanfourierbodygyroscopemeanz		   Average Mean Gyroscope   Numeric
+                       
+* meanfourierbodyaccelerometermeanz	   Average Mean Accelerometer   Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
 					   - Z direction 
-meanfourierbodygyroscopestdx		   Average Std Gyroscope   Numeric
+                       
+* meanfourierbodyaccelerometerstdx	   Average Std Accelerometer   Numeric
+				           Body Meaurement with Fast
+					   Fourier transform applied
+					   - X direction 
+                       
+* meanfourierbodyaccelerometerstdy	   Average Std Accelerometer   Numeric
+				           Body Meaurement with Fast
+					   Fourier transform applied
+					   - Y direction  
+                       
+* meanfourierbodyaccelerometerstdz	   Average Std Accelerometer   Numeric
+				           Body Meaurement with Fast
+					   Fourier transform applied
+					   - Z direction  
+                       
+* meanfourierbodyaccelerometerjerkmeanx	   Average Mean Accelerometer   Numeric
+				           Body Jerk Meaurement with Fast
+					   Fourier transform applied
+					   - X direction  
+                       
+* meanfourierbodyaccelerometerjerkmeany	   Average Mean Accelerometer   Numeric
+				           Body Jerk Meaurement with Fast
+					   Fourier transform applied
+					   - Y direction
+                       
+* meanfourierbodyaccelerometerjerkmeanz	   Average Mean Accelerometer   Numeric
+				           Body Jerk Meaurement with Fast
+					   Fourier transform applied
+					   - Z direction
+                       
+* meanfourierbodyaccelerometerjerkstdx	   Average Std Accelerometer   Numeric
+				           Body Jerk Meaurement with Fast
+					   Fourier transform applied
+					   - X direction
+                       
+* meanfourierbodyaccelerometerjerkstdy	   Average Std Accelerometer   Numeric
+				           Body Jerk Meaurement with Fast
+					   Fourier transform applied
+					   - Y direction
+                       
+* meanfourierbodyaccelerometerjerkstdz	   Average Std Accelerometer   Numeric
+				           Body Jerk Meaurement with Fast
+					   Fourier transform applied
+					   - Z direction	
+                       
+* meanfourierbodygyroscopemeanx		   Average Mean Gyroscope   Numeric
+				           Body Meaurement with Fast
+					   Fourier transform applied
+					   - X direction 
+                       
+* meanfourierbodygyroscopemeany		   Average Mean Gyroscope   Numeric
+				           Body Meaurement with Fast
+					   Fourier transform applied
+					   - Y direction 
+                       
+* meanfourierbodygyroscopemeanz		   Average Mean Gyroscope   Numeric
+				           Body Meaurement with Fast
+					   Fourier transform applied
+					   - Z direction 
+                       
+* meanfourierbodygyroscopestdx		   Average Std Gyroscope   Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
 					   - X direction 	
-meanfourierbodygyroscopestdy		   Average Std Gyroscope   Numeric
+                       
+* meanfourierbodygyroscopestdy		   Average Std Gyroscope   Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
-					   - Y direction 		
-meanfourierbodygyroscopestdz		   Average Std Gyroscope   Numeric
+					   - Y direction 	
+                       
+* meanfourierbodygyroscopestdz		   Average Std Gyroscope   Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
 					   - Z direction 	
 
-meanfourierbodyaccelerometermagnitudemean  Average Mean Accelerometer   		Numeric
+* meanfourierbodyaccelerometermagnitudemean  Average Mean Accelerometer   		Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
-					   - Magnitude 		
-meanfourierbodyaccelerometermagnitudestd   Average Std Accelerometer   			Numeric
+					   - Magnitude 	
+                       
+* meanfourierbodyaccelerometermagnitudestd   Average Std Accelerometer   			Numeric
 				           Body Meaurement with Fast
 					   Fourier transform applied
-					   - Magnitude 			
-meanfourierbodybodyaccelerometerjerkmagnitudemean	Average Mean Accelerometer   	Numeric
+					   - Magnitude 	
+                       
+* meanfourierbodybodyaccelerometerjerkmagnitudemean	Average Mean Accelerometer   	Numeric
 				           		Body Jerk Meaurement with Fast
 					   		Fourier transform applied
-					   		- Magnitude 	
-meanfourierbodybodyaccelerometerjerkmagnitudestd	Average Std Accelerometer   	Numeric
+					   		- Magnitude 
+                            
+* meanfourierbodybodyaccelerometerjerkmagnitudestd	Average Std Accelerometer   	Numeric
 				           		Body Jerk Meaurement with Fast
 					   		Fourier transform applied
-					   		- Magnitude 	
-meanfourierbodybodygyroscopemagnitudemean	Average Mean Gyroscope   		Numeric
+					   		- Magnitude 
+                            
+* meanfourierbodybodygyroscopemagnitudemean	Average Mean Gyroscope   		Numeric
 				           	Body Meaurement with Fast
-					   	Fourier transform applied
-					   	- Magnitude 		
-meanfourierbodybodygyroscopemagnitudestd	Average Std Gryroscope   		Numeric
-				           	Body Meaurement with Fast
-					   	Fourier transform applied
-					   	- Magnitude 		
-meanfourierbodybodygyroscopejerkmagnitudemean	Average Mean Gyroscope   		Numeric
-				           	Body Jerk Meaurement with Fast
 					   	Fourier transform applied
 					   	- Magnitude 	
-meanfourierbodybodygyroscopejerkmagnitudestd	Average Std Gyroscope   		Numeric
+                        
+* meanfourierbodybodygyroscopemagnitudestd	Average Std Gryroscope   		Numeric
+				           	Body Meaurement with Fast
+					   	Fourier transform applied
+					   	- Magnitude 	
+                        
+* meanfourierbodybodygyroscopejerkmagnitudemean	Average Mean Gyroscope   		Numeric
+				           	Body Jerk Meaurement with Fast
+					   	Fourier transform applied
+					   	- Magnitude 
+                        
+* meanfourierbodybodygyroscopejerkmagnitudestd	Average Std Gyroscope   		Numeric
 				           	Body Jerk Meaurement with Fast
 					   	Fourier transform applied
 					   	- Magnitude 	 
