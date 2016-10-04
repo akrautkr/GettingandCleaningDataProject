@@ -247,9 +247,9 @@ names <- sub("fourier", "meanfourier", names)
 names <- sub("time", "meantime", names)
 names(xgroupedmean) <- names
 
-##--- write tidy data.frame out to a file
+##--- write tidy data.frame out to a text file
 
-write.csv (xgroupedmean, file="tidy_meanHumanActivityDataset.csv")
+write.table (xgroupedmean, file="tidy_meanHumanActivityDataset.txt", row.names=FALSE)
 
 
 
