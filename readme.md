@@ -1,5 +1,3 @@
-README
-
 =================================================================================
 
 README : Mean Human Activity Recognition Using Smartphones Dataset
@@ -29,7 +27,7 @@ The resulting tidy dataset is written to a file named "tidy_meanHumanActivityDat
 
 To read this dataset into R:
 
-	df <- read.csv("tidy_meanHumanActivityDataset.csv", header=TRUE)
+	df <- read.table("tidy_meanHumanActivityDataset.csv", header=TRUE)
 
 This dataset is considered tidy because :
 
@@ -46,7 +44,7 @@ run_analysis.R   - contains the R code to download and process the source data i
 README.txt	 - this file
 Codebook.txt	 - describes the the original dataset, the tidy dataset and the variables 
 		   included in the new tidy dataset
-tidy_meanHumanActivityDataset.csv - tidy dataset created with run_analysis.R from the original
+tidy_meanHumanActivityDataset.txt - tidy dataset created with run_analysis.R from the original
 		  dataset "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 
